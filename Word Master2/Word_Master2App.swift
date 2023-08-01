@@ -11,7 +11,7 @@ import SwiftUI
 struct Word_Master2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CategoriesView()
         }
     }
 }

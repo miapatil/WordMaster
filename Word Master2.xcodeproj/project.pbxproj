@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		F6AE09F2297B206100F1490D /* Word_Master2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE09F1297B206100F1490D /* Word_Master2App.swift */; };
-		F6AE09F4297B206100F1490D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE09F3297B206100F1490D /* ContentView.swift */; };
+		F6AE09F4297B206100F1490D /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE09F3297B206100F1490D /* CategoriesView.swift */; };
 		F6AE09F6297B206500F1490D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AE09F5297B206500F1490D /* Assets.xcassets */; };
 		F6AE09F9297B206500F1490D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AE09F8297B206500F1490D /* Preview Assets.xcassets */; };
+		F6AE0A00297B208000F1490D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AE09FF297B208000F1490D /* LaunchScreen.storyboard */; };
+		F6AE0A02297B259500F1490D /* WordInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE0A01297B259500F1490D /* WordInfoView.swift */; };
+		F6AE0A04297B270A00F1490D /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE0A03297B270A00F1490D /* WordsView.swift */; };
+		F6AE0A06297B2C3B00F1490D /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE0A05297B2C3B00F1490D /* CatImageView.swift */; };
+		F6AE0A08297B7E2D00F1490D /* SampleCatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE0A07297B7E2D00F1490D /* SampleCatList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6AE09EE297B206100F1490D /* Word Master2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Master2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AE09F1297B206100F1490D /* Word_Master2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_Master2App.swift; sourceTree = "<group>"; };
-		F6AE09F3297B206100F1490D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6AE09F3297B206100F1490D /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		F6AE09F5297B206500F1490D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6AE09F8297B206500F1490D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6AE09FF297B208000F1490D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6AE0A01297B259500F1490D /* WordInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordInfoView.swift; sourceTree = "<group>"; };
+		F6AE0A03297B270A00F1490D /* WordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
+		F6AE0A05297B2C3B00F1490D /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
+		F6AE0A07297B7E2D00F1490D /* SampleCatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCatList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,8 @@
 		F6AE09E5297B206100F1490D = {
 			isa = PBXGroup;
 			children = (
+				F6AE0A07297B7E2D00F1490D /* SampleCatList.swift */,
+				F6AE09FF297B208000F1490D /* LaunchScreen.storyboard */,
 				F6AE09F0297B206100F1490D /* Word Master2 */,
 				F6AE09EF297B206100F1490D /* Products */,
 			);
@@ -52,7 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				F6AE09F1297B206100F1490D /* Word_Master2App.swift */,
-				F6AE09F3297B206100F1490D /* ContentView.swift */,
+				F6AE09F3297B206100F1490D /* CategoriesView.swift */,
+				F6AE0A05297B2C3B00F1490D /* CatImageView.swift */,
+				F6AE0A03297B270A00F1490D /* WordsView.swift */,
+				F6AE0A01297B259500F1490D /* WordInfoView.swift */,
 				F6AE09F5297B206500F1490D /* Assets.xcassets */,
 				F6AE09F7297B206500F1490D /* Preview Content */,
 			);
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AE0A00297B208000F1490D /* LaunchScreen.storyboard in Resources */,
 				F6AE09F9297B206500F1490D /* Preview Assets.xcassets in Resources */,
 				F6AE09F6297B206500F1490D /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6AE09F4297B206100F1490D /* ContentView.swift in Sources */,
+				F6AE0A08297B7E2D00F1490D /* SampleCatList.swift in Sources */,
+				F6AE0A04297B270A00F1490D /* WordsView.swift in Sources */,
+				F6AE09F4297B206100F1490D /* CategoriesView.swift in Sources */,
 				F6AE09F2297B206100F1490D /* Word_Master2App.swift in Sources */,
+				F6AE0A06297B2C3B00F1490D /* CatImageView.swift in Sources */,
+				F6AE0A02297B259500F1490D /* WordInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,13 +286,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Word Master2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordMaster/Preview Content\"";
 				DEVELOPMENT_TEAM = 23R9JHJLFW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -280,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mia.Word-Master2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mia.WordMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,13 +315,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Word Master2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordMaster/Preview Content\"";
 				DEVELOPMENT_TEAM = 23R9JHJLFW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mia.Word-Master2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mia.WordMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
